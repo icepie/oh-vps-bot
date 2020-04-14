@@ -1,3 +1,4 @@
 telebot
 pyTelegramBotAPI
 psutil
+operator
