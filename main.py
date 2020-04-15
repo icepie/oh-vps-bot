@@ -123,7 +123,7 @@ def main():
     @bot.message_handler(func=lambda message: True)
     def shell_dev(message):
         if message.text == 'stop':
-            bot.send_message(message.chat.id, "Done!", reply_markup=bot.types.ReplyKeyboardRemove())
+            bot.send_message(message.chat.id, "Done!", reply_markup=types.ReplyKeyboardRemove())
             # set shell mode off
             set_value('shell_on', 0)
         elif get_value('shell_on') == 1:
