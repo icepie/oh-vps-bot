@@ -2,13 +2,18 @@
 Monitor ur VPS by calling telegram bot.
 
 # usage
-/start
+/help Get the user guide
 
-/stats
+/stats Check the system status
 
-...
+/task  Check the daemon
+
+/shell Into the shell mode
+
+... more function
 
 # todo
-- [ ] shell command
-- [x]  information visualization
+- [x] shell command
+- [x] check system status
+- [ ] visual monitoring information
 ...
